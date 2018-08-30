@@ -1,6 +1,3 @@
-server:
-  name: license
-  port: 8080
-source:
-  redis:
-    port: 6389
+roger:
+    test:
+        name:  rogertest
