@@ -1,3 +1,9 @@
 roger:
     test:
         name:  ro9er
+        
+zuul:
+    eureka:
+        test:
+            semaphore:
+                maxSemaphores: 200
