@@ -7,3 +7,10 @@ zuul:
         test:
             semaphore:
                 maxSemaphores: 200
+hystrix:
+    command:
+        test:
+            execution:
+                isolation:
+                    semaphore:
+                        maxConcurrentRequests: 200
